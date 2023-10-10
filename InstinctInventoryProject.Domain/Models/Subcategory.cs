@@ -1,6 +1,6 @@
 ﻿namespace InstinctInventoryProject.Domain.Models
 {
-    internal class Subcategory : BaseEntity
+    public class Subcategory : BaseEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -13,5 +13,8 @@
         public int CategoryId { get; set; }
         public int SubCategoryId { get; set; }
 
+        public Category Category { get; set; }
+        public Subcategory Subcategory { get; set; }
+
     }
 }

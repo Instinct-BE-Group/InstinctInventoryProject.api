@@ -1,6 +1,6 @@
 ﻿namespace InstinctInventoryProject.DataAccess
 {
-    internal interface IAppDbContext
+    public interface IAppDbContext
     {
     }
 }
