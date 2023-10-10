@@ -23,11 +23,6 @@
 
 
 	<ItemGroup>
-	  <Folder Include="Database\" />
-	</ItemGroup>
-
-
-	<ItemGroup>
 	  <ProjectReference Include="..\InstinctInventoryProject.Domain\InstinctInventoryProject.Domain.csproj" />
 	</ItemGroup>
 
