@@ -60,6 +60,10 @@ namespace InstinctInventoryProject.api.Controllers
             {
                 return Ok(res);
             }
+            else if (res.Code.Equals("06"))
+            {
+                return Ok(res);
+            }
             else
             {
                 return StatusCode(500, new ErrorResponse { Code = res.Code, Description = res.Description });
