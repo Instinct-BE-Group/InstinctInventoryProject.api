@@ -1,4 +1,6 @@
 using InstinctInventoryProject.DataAccess;
+using InstinctInventoryProject.BusinessLogic.Interface;
+using InstinctInventoryProject.BusinessLogic.Repository;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
@@ -20,7 +22,7 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddSwaggerGen();
 
-
+builder.Services.AddScoped<IProduct, ProductRepo>();
 
 var app = builder.Build();
 
