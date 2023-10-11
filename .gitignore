@@ -361,3 +361,17 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/InstinctInventoryProject.api/appsettings.json
+/InstinctInventoryProject.Domain/Dtos/Supplier/CreateSupplierDto.cs
+/InstinctInventoryProject.Domain/Dtos/Supplier/DeleteSupplierDto.cs
+/InstinctInventoryProject.Domain/Dtos/Supplier/UpdateSupplierDto.cs
+/InstinctInventoryProject.Domain/Dtos/StockMovement/CreateStockMovement.cs
+/InstinctInventoryProject.Domain/Dtos/StockMovement/DeleteStockMovement.cs
+/InstinctInventoryProject.Domain/Dtos/StockMovement/UpdateStockMovement.cs
+/InstinctInventoryProject.Domain/Dtos/Unit/CreateUnit.cs
+/InstinctInventoryProject.Domain/Dtos/Unit/DeleteUnit.cs
+/InstinctInventoryProject.Domain/Dtos/Unit/UpdateUnit.cs
+/InstinctInventoryProject.Domain/Models/StockMovement.cs
+/.gitignore
+/InstinctInventoryProject.Domain/Utilities/PagedList.cs
+/InstinctInventoryProject.Domain/Response/APIListResponse.cs
