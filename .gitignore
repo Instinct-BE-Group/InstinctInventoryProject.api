@@ -362,3 +362,8 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /InstinctInventoryProject.api/appsettings.json
+/InstinctInventoryProject.DataAccess/Migrations/20231011083714_createDb.cs
+/InstinctInventoryProject.DataAccess/Migrations/20231011083714_createDb.Designer.cs
+/InstinctInventoryProject.DataAccess/Migrations/20231010230603_createDb.cs
+/InstinctInventoryProject.DataAccess/Migrations/20231010230603_createDb.Designer.cs
+/InstinctInventoryProject.DataAccess/InstinctInventoryProject.DataAccess.csproj
