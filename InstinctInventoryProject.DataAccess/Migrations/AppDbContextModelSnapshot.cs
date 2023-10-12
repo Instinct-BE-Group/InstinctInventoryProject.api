@@ -491,7 +491,7 @@ namespace InstinctInventoryProject.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("InstinctInventoryProject.Domain.Models.Product", "Product")
+                    b.HasOne("InstinctInventoryProject.Domain.Models.Product", "ProductName")
                         .WithMany()
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -505,7 +505,7 @@ namespace InstinctInventoryProject.DataAccess.Migrations
 
                     b.Navigation("FromUnit");
 
-                    b.Navigation("Product");
+                    b.Navigation("ProductName");
 
                     b.Navigation("ToUnit");
                 });

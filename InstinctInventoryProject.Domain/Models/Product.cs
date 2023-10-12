@@ -6,12 +6,15 @@ namespace InstinctInventoryProject.Domain.Models
     {
         [Key]
         public int ProductId { get; set; }
+
         public string ProductName { get; set; }
         public string ProductDescription { get; set; }
         public decimal UnitPrice { get; set; }
+
+        [ForeignKey: SupplierId]
         public int SupplierId { get; set; }
+
         public Supplier Supplier { get; set; }
         public int StockQuantity { get; set; }
-
     }
 }

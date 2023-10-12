@@ -1,6 +1,6 @@
 ﻿namespace InstinctInventoryProject.Domain.Dtos.PurchaseOrder
 {
-    public class DeleteSupplierDto
+    public class DeletePurchaseOrderDto
     {
         public int Id { get; set; }
     }

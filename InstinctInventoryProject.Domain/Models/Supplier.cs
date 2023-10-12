@@ -6,6 +6,7 @@ namespace InstinctInventoryProject.Domain.Models
     {
         [Key]
         public int SupplierId { get; set; }
+
         public string SupplierName { get; set; }
         public string ContactInformation { get; set; }
     }

@@ -7,5 +7,6 @@
         public decimal UnitPrice { get; set; }
         public int SupplierId { get; set; }
         public int StockQuantity { get; set; }
+        public string CreatedBy { get; set; }
     }
 }

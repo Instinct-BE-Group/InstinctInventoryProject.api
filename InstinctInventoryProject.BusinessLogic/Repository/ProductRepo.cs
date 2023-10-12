@@ -1,25 +1,24 @@
 ﻿using AutoMapper;
 using InstinctInventoryProject.BusinessLogic.Interface;
-using InstinctInventoryProject.DataAccess.Database;
 using InstinctInventoryProject.Domain.Dtos.Product;
 using InstinctInventoryProject.Domain.Models;
 using InstinctInventoryProject.Domain.Response;
 using Newtonsoft.Json;
 using System.Data;
 
-namespace InstinctInventoryProject.BusinessLogic.Repository
+namespace InstinctInventoryProject.BusinessLogic.Respository
 {
     public class ProductRepo : IProduct
     {
         private readonly IDbConnection _connection;
-        private readonly ProductDbService service;
+        private readonly DataAccess.Database.ProductDbService service;
         private readonly IMapper _mapper;
 
         public ProductRepo(IDbConnection connection, IMapper mapper)
         {
             _connection = connection;
             _mapper = mapper;
-            service = new ProductDbService(connection);
+            service = new DataAccess.Database.ProductDbService(connection);
         }
 
         public async Task<APIResponse<CreateProductDto>> CreateProduct(CreateProductDto request)

@@ -6,6 +6,7 @@ namespace InstinctInventoryProject.Domain.Models
     {
         [Key]
         public int UnitId { get; set; }
+
         public string UnitName { get; set; }
         public string Location { get; set; }
     }

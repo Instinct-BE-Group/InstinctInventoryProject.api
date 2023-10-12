@@ -9,12 +9,10 @@ namespace InstinctInventoryProject.DataAccess
     {
         public AppDbContext()
         {
-
         }
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
-
         }
 
         public AppDbContext Create()
@@ -80,6 +78,5 @@ namespace InstinctInventoryProject.DataAccess
                 .Build();
             optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
         }
-
     }
 }

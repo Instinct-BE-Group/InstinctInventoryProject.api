@@ -6,6 +6,7 @@ namespace InstinctInventoryProject.Domain.Models
     {
         [Key]
         public int OrderId { get; set; }
+
         public DateTime OrderDate { get; set; }
         public int SupplierId { get; set; }
         public Supplier Supplier { get; set; }

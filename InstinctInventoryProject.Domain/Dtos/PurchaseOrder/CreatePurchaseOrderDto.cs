@@ -1,6 +1,6 @@
 ﻿namespace InstinctInventoryProject.Domain.Dtos.PurchaseOrder
 {
-    public class PurchaseOrderCreateDto
+    public class CreatePurchaseOrderDto
     {
         public DateTime OrderDate { get; set; }
         public int SupplierId { get; set; }
@@ -10,5 +10,6 @@
         public string RequestedBy { get; set; }
         public int UnitId { get; set; }
         public string ApprovedBy { get; set; }
+        public string CreatedBy { get; set; }
     }
 }

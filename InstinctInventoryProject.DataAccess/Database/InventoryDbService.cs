@@ -59,5 +59,4 @@
 
         // Implement similar methods for other entities
     }
-
 }

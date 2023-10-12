@@ -96,20 +96,5 @@ namespace InstinctInventoryProject.DataAccess.Database
                 return 0;
             }
         }
-
-        //public async Task<int> DeleteProduct(int productId)
-        //{
-        //    try
-        //    {
-        //        var query = "DeleteProduct";
-        //        var param = new { ProductId = productId };
-        //        return await _connection.ExecuteAsync(query, param, commandType: CommandType.StoredProcedure);
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return 0;
-        //    }
-        //}
-
     }
 }

@@ -6,8 +6,9 @@ namespace InstinctInventoryProject.Domain.Models
     {
         [Key]
         public int MovementId { get; set; }
+
         public int ProductId { get; set; }
-        public Product Product { get; set; }
+        public Product ProductName { get; set; }
         public int FromUnitId { get; set; }
         public Unit FromUnit { get; set; }
         public int ToUnitId { get; set; }
