@@ -1,10 +1,6 @@
-﻿using InstinctInventoryProject.Domain.Dtos.Product;
-using InstinctInventoryProject.Domain.Models;
-using InstinctInventoryProject.Domain.Response;
-
-namespace InstinctInventoryProject.BusinessLogic.Interface
+﻿namespace InstinctInventoryProject.BusinessLogic.Interface
 {
-    public interface IProduct
+    internal class IProduct
     {
         Task<APIListResponse3<Product>> GetProducts(int pageNumber, int pageSize);
 

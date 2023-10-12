@@ -367,3 +367,16 @@ FodyWeavers.xsd
 /InstinctInventoryProject.DataAccess/Migrations/20231010230603_createDb.cs
 /InstinctInventoryProject.DataAccess/Migrations/20231010230603_createDb.Designer.cs
 /InstinctInventoryProject.DataAccess/InstinctInventoryProject.DataAccess.csproj
+/InstinctInventoryProject.Domain/Dtos/Supplier/CreateSupplierDto.cs
+/InstinctInventoryProject.Domain/Dtos/Supplier/DeleteSupplierDto.cs
+/InstinctInventoryProject.Domain/Dtos/Supplier/UpdateSupplierDto.cs
+/InstinctInventoryProject.Domain/Dtos/StockMovement/CreateStockMovement.cs
+/InstinctInventoryProject.Domain/Dtos/StockMovement/DeleteStockMovement.cs
+/InstinctInventoryProject.Domain/Dtos/StockMovement/UpdateStockMovement.cs
+/InstinctInventoryProject.Domain/Dtos/Unit/CreateUnit.cs
+/InstinctInventoryProject.Domain/Dtos/Unit/DeleteUnit.cs
+/InstinctInventoryProject.Domain/Dtos/Unit/UpdateUnit.cs
+/InstinctInventoryProject.Domain/Models/StockMovement.cs
+/.gitignore
+/InstinctInventoryProject.Domain/Utilities/PagedList.cs
+/InstinctInventoryProject.Domain/Response/APIListResponse.cs

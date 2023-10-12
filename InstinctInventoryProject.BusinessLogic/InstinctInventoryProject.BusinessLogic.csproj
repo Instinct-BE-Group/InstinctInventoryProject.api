@@ -13,6 +13,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Folder Include="Repository\" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <ProjectReference Include="..\InstinctInventoryProject.DataAccess\InstinctInventoryProject.DataAccess.csproj" />
 	  <ProjectReference Include="..\InstinctInventoryProject.Domain\InstinctInventoryProject.Domain.csproj" />
 	</ItemGroup>
